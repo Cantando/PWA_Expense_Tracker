@@ -20,7 +20,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://root1:rootroot1@ds049130.
   useFindAndModify: false
 });
 
-// routes
+// routes//
 app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
